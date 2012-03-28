@@ -21,9 +21,9 @@ $facilityMap = {}
 
 #Probably a really dumb way to do this, but these are whitelists of 
 #allowed commands.  
-$movementVars = ["up", "down", "left", "right", "forward", "back"]
-$roomCommands = ["use", "eat", "sleep", "fight", "look", "say", "take", "get", 
-                 "remember", "where", "weapon", "life", "equip", "points"]
+$movementVars = %w[up down left right forward back]
+$roomCommands = %w[use eat sleep fight look say take get 
+                 remember where weapon life equip points]
   
 #Attaches the coordinates of each room to their other attributes through the 
 #easily accessible $facilityMap hash.
