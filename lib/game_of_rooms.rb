@@ -1,3 +1,10 @@
+require 'facility'
+require 'room'
+require 'inmate'
+require 'monster'
+require 'item'
+require 'fixture'
+
 # Sometimes you don't want to run the "main" function -- e.g. when a file is `require`d.
 # Let's only run this script when it's executed directly.
 if __FILE__ == $0
